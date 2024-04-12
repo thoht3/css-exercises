@@ -41,18 +41,28 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 8px;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
-  background-color: gray;
+  background-color: #eeeeee;
 }
 
 .left-links, .right-links {
   display: flex;
-  text-wrap: nowrap;
   gap: 16px;
+  padding: 0 16px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  padding: 8px 16px;
 }
 
 body {
